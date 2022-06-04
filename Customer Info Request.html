@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Info Request</title>
+	<link rel="stylesheet" href="FinalWebsite.css">
+</head>
+<body>
+	<h1><a href="Final Website.html">Mitch's Video Game Ratings</a></h1>
+	
+<div>
+<h2>Tell us about yourself!</h2>
+<form class="favs" method="post" action="Favs Form.html" target="_blank">
+
+	<textarea class="placeholder" rows="3" cols="60" placeholder="Your top games"></textarea><br>
+	
+	<textarea class="placeholder" rows="3" cols="60" placeholder="Your top genres"></textarea><br>
+	
+	<textarea class="placeholder" rows="3" cols="60" placeholder="Other thoughts"></textarea>
+	
+	<div>
+	<label for="name">Name</label>
+	<input type="text" name="name">
+	</div>
+	
+	<div>
+	<label>Email</label>
+	<input type="email" name="email" required>
+	</div>
+	
+	<div>
+		<label>Age</label><br>
+		<input type="radio" id="age1" name="age" value="20">
+		<label for="age1">10 - 20</label><br>
+		<input type="radio" id="age2" name="age" value="30">
+		<label for="age2">21 - 30</label><br>  
+		<input type="radio" id="age3" name="age" value="100">
+		<label for="age3">31 - 100</label><br><br>
+	</div>
+	
+	<div>
+	<label>Can we use this info in future articles?</label><br>
+	<input type="radio" id="yes" name="yes">
+	<label for="yes">Absolutely!</label><br>
+	<input type="radio" id="no" name="no">
+	<label for="no">No way!</label>
+	</div>
+	<div><input type="submit" class="submit" value="Submit"></div>
+	
+</form>
+</div>
+</body>
+</html>

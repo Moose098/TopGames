@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	color: white;
+	background-color: grey;
+	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+	font-size: 110%;
+	text-justify: auto;
+	}
+.paras {
+	max-width: 1200px;
+}
+.logo {
+	text-align: center;
+	background-color: #333333; 
+}
+h1 {
+	font-family: geo;
+    font-style: normal;
+    font-weight: 400;
+	font-size: 300%;
+	background-color: #333333;
+	padding: 20px;
+	margin-bottom: -5px;
+	border-radius: 3px;
+	text-shadow: 2px 2px 4px black;
+	}
+h1 a {
+	text-decoration: none;
+	color: bisque;
+}
+h1 a:hover{
+    color: #F77A35;
+    
+}
+h2 {
+	color: bisque;
+	text-shadow: 2px 2px 4px black;
+	background-color: #333333;
+	padding: 5px;
+	border-radius: 3px;
+}
+h1, .top {
+	text-align: center;
+}
+h2, h3 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-shadow: 2px 2px 4px black;
+}
+h1, h2, h3 {
+	max-width: none;
+}
+.privPol, .copyright {
+	padding: 0;
+	color: #333333;
+	}
+.infoRequest {
+	color: bisque;
+}
+.placeholder {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 100%;
+}
+p a {
+	color: blanchedalmond;
+}
+.topnav {
+	text-align: center;
+	float: left;
+	width: 100%;
+	height: 80px;
+	margin: 0;
+	padding-top: -10;
+	padding-bottom: 30px;
+	background-color: crimson;
+	}
+.topnav a:hover {
+	background-color: #F77A35;
+	padding-top: 75px;
+}
+.botw, .smash, .HK, .doom {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.botwVid, .smashVid, .HKVid, .doomVid {
+	padding-left: 50px;
+	float: right;
+	text-align: left;
+}
+p { 
+	padding-left: 100px;
+	height: 315px;
+}
+table {
+	padding-left: 100px;
+}
+th, td {
+	border: 1px solid white;
+	background-color: gray;
+background-image: linear-gradient(transparent 50%, rgba(255,255,255,.5) 50%);
+background-size: 50px 50px;	
+}
+td {
+	padding: .4em .8em;
+}
+th {
+	padding: .4em .8em;
+}
+a:hover {
+	color: #F77A35;
+}
+.privPol a:hover {
+	color: #333333;
+}
+form div {
+	margin-top: 15px;
+}
+form {
+	overflow: scoll;
+	overflow-wrap: break-word;
+}
+.submit {
+	background-color: indianred;
+	color: #333333;
+	width: 75px;
+	height:25px;
+}
+.smallPrivacy {
+	color: dimgrey;
+}
